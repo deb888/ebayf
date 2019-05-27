@@ -1,0 +1,197 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+a,
+button {
+    outline: none!important;
+    text-decoration: none;
+}
+
+.dark-blue {
+    background-color: #34495E;
+}
+
+.green {
+    background-color: #16A085;
+}
+
+.blue {
+    background-color: #2980B9;
+}
+
+.orange {
+    background-color: #F39C12;
+}
+
+.red {
+    background-color: #E74C3C;
+}
+
+.purple {
+    background-color: #8E44AD;
+}
+
+.dark-gray {
+    background-color: #7F8C8D;
+}
+
+.gray {
+    background-color: #95A5A6;
+}
+
+.light-gray {
+    background-color: #BDC3C7;
+}
+
+.yellow {
+    background-color: #F1C40F;
+}
+
+.text-dark-blue {
+    color: #34495E;
+}
+
+.text-green {
+    color: #16A085;
+}
+
+.text-blue {
+    color: #2980B9;
+}
+
+.text-orange {
+    color: #F39C12;
+}
+
+.text-red {
+    color: #E74C3C;
+}
+
+.text-purple {
+    color: #8E44AD;
+}
+
+.text-faded {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.remove li.list-group-item a span {
+    display: none;
+}
+
+.remove .side-bar-scroll .list-group-item {
+    text-align: center;
+}
+
+.remove .top-head {
+    right: 0;
+    width: calc(100% - 78px)!important;
+}
+
+.remove .left-panel {
+    width: 78px!important;
+}
+
+.remove .sidebar-logo .small-logo {
+    display: inline-block!important;
+}
+
+.remove .sidebar-logo .big-logo {
+    display: none;
+}
+
+.remove .right-panel {
+    padding-left: 90px;
+}
+
+.after-login-rightside {
+    padding-left: 280px;
+    background-color: #fff;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.remove .after-login-rightside {
+    padding-left: 90px;
+}
+
+.remove .after-footer-section {
+    right: 0;
+    width: calc(100% - 78px)!important;
+}
+
+
+/* ==================== mobile view ==================== */
+
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+    i.fa.fa-bars {
+        display: none;
+    }
+    li.list-group-item a span {
+        display: none;
+    }
+    .side-bar-scroll .list-group-item {
+        text-align: center;
+    }
+    .top-head {
+        right: 0;
+        width: calc(100% - 78px)!important;
+    }
+    .after-footer-section {
+        width: calc(100% - 78px)!important;
+    }
+    .left-panel {
+        width: 78px!important;
+    }
+    .sidebar-logo .small-logo {
+        display: inline-block!important;
+    }
+    .sidebar-logo .big-logo {
+        display: none;
+    }
+    .right-panel {
+        padding-left: 90px!important;
+    }
+    .top-head input[type="text"] {
+        margin: 0 14px;
+        width: 55%!important;
+    }
+    .after-login-rightside {
+        padding-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    i.fa.fa-bars {
+        display: none;
+    }
+    li.list-group-item a span {
+        display: none!important;
+    }
+    .side-bar-scroll .list-group-item {
+        text-align: center;
+    }
+    .top-head {
+        right: 0;
+        width: calc(100% - 78px)!important;
+    }
+    .left-panel {
+        width: 78px!important;
+    }
+    .sidebar-logo .small-logo {
+        display: inline-block!important;
+    }
+    .sidebar-logo .big-logo {
+        display: none;
+    }
+    .after-login-rightside {
+        padding-left: 90px;
+    }
+    .top-head input[type="text"] {
+        margin: 0 14px;
+        width: 55%!important;
+    }
+    .after-footer-section {
+        width: calc(100% - 78px)!important;
+    }
+}

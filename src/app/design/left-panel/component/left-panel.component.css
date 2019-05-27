@@ -1,0 +1,23 @@
+.left-panel {
+    height: calc(100vh - 170px);
+    overflow-y: auto;
+    /* position: fixed;
+    width: 243px; */
+}
+
+.left-panel .nav-link {
+    border-bottom: 1px dashed #e3e5e6;
+    color: #716c6c;
+    font-size: 14px;
+}
+.left-panel .nav-link:hover { background: #eceff1; }
+
+
+@media only screen and (max-width:990px){
+
+.left-panel{
+    height: auto;
+    overflow-y: auto;
+}
+
+}

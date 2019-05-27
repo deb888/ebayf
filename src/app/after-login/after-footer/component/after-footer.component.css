@@ -1,0 +1,4 @@
+.after-footer-section {
+    width: calc(100% - 280px);
+    background: #dedede;
+}

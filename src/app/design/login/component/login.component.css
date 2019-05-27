@@ -1,0 +1,66 @@
+.outer-wrapper {
+    margin-top: 90px;
+    /* min-height: calc(100vh - 130px ); */
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+    margin-right: 6%;
+    background-color: white;
+    color: blue;
+    margin-top: 4%;
+}
+
+.register .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.register-heading {
+    margin: 30px 0;
+    color: #e9ecef;
+}
+
+.btnLoginSubmit {
+    border: none;
+    padding: 2%;
+    width: 25%;
+    cursor: pointer;
+    background: #29abe2;
+    color: #fff;
+}
+
+.btnForgetPwd {
+    cursor: pointer;
+    margin-right: 5%;
+    color: #f8f9fa;
+}
+
+.register {
+    background: -webkit-linear-gradient(left, #464c61, #464c61);
+    width: 50%;
+    margin: 5% auto;
+    padding: 3%;
+}
+
+.register .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #fff;
+}
+
+.register .nav-tabs .nav-link.active {
+    background: #ffc107;
+}
+
+@media only screen and (max-width:768px) {
+    .register {
+        width: 100%;
+    }
+}

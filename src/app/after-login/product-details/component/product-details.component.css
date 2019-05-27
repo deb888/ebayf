@@ -1,0 +1,7 @@
+.product-table thead {
+    background: #007bff;
+}
+
+.product-table tbody tr:nth-child(even) {
+    background: #f3f1f1;
+}

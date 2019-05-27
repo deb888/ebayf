@@ -1,0 +1,57 @@
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-lg navbar_before_login bg-primary text-light" (scroll)="onWindowScroll($event);" id="navbar">
+    <div class="container">
+        <a class="navbar-brand" routerLink="/">Logo</a>
+        <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+
+        <div class="collapse navbar-collapse" [collapse]="isCollapsed">
+            <ul class="navbar-nav nav-list ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/" routerLinkActive="active">About Us</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/" routerLinkActive="active">FAQ</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
+                </li>
+
+                <!-- <li class="nav-item">
+          <div class="btn-group" dropdown>
+            <button id="button-basic" dropdownToggle type="button" class="btn btn-warning dropdown-toggle"
+                    aria-controls="dropdown-basic">
+              Product <span class="caret"></span>
+            </button>
+            <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+                role="menu" aria-labelledby="button-basic">
+              <li role="menuitem"><a class="dropdown-item" href="#">Product 1</a></li>
+              <li role="menuitem"><a class="dropdown-item" href="#"> Product 2</a></li>
+              <li role="menuitem"><a class="dropdown-item" href="#"> Product 3 </a></li>
+              <li class="divider dropdown-divider"></li>
+              <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
+              </li>
+            </ul>
+          </div>
+        </li> -->
+
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+        </div>
+
+    </div>
+</nav>

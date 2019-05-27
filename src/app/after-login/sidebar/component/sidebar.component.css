@@ -1,0 +1,89 @@
+/* ==================== dashboard ===================== */
+
+a {
+    text-decoration: none;
+}
+
+.left-panel {
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    /* background: var(--white); */
+    background: #3a3f51;
+    border-right: 1px solid #e5e5e5 !important;
+}
+
+.remove li.list-group-item a span {
+    display: none;
+}
+
+.remove .side-bar-scroll .list-group-item {
+    text-align: center;
+}
+
+.sidebar-inner {
+    position: relative;
+    height: 100%;
+}
+
+.sidebar-logo {
+    width: 100%;
+    background: #fff;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.sidebar-logo .big-logo {
+    width: 150px;
+}
+
+.sidebar-logo .small-logo {
+    display: none;
+    width: 60px;
+}
+
+.side-bar-scroll .list-group-item {
+    border-right: 0;
+    border-left: 0;
+    /* border-top: 1px solid var(--light); */
+    border-top: 1px solid #4e5469;
+    border-bottom: 0;
+    margin-bottom: 0;
+    background: none;
+}
+
+.side-bar-scroll .list-group-item.active a,
+.side-bar-scroll .list-group-item:hover a {
+    color: #ded9d9;
+}
+
+.side-bar-scroll .list-group-item:hover,
+.side-bar-scroll .list-group-item.active {
+    /* background: var(--light); */
+    background: #464c61;
+}
+
+.side-bar-scroll .list-group-item a {
+    color: #a9a9a9;
+    font-size: 14px;
+}
+
+.side-bar-scroll .list-group-item a .fa-dashboard {
+    color: var(--yellow);
+    margin-right: 10px;
+}
+
+.side-bar-scroll .list-group-item a .fa-briefcase {
+    color: var(--yellow);
+    margin-right: 10px;
+}
+
+.side-bar-scroll .list-group-item a .fa-envelope {
+    color: var(--yellow);
+    margin-right: 10px;
+}
+
+.side-bar-scroll .list-group-item a .fa-cubes {
+    color: var(--yellow);
+    margin-right: 10px;
+}
